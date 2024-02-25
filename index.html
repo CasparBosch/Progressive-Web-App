@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="manifest.json" type="image/x-icon">
+
+
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="js/main.js"></script>
 </head>
 <body>
     <h1>test</h1>
-    <wrapper id="wrapper" class="wrapper">
+    
         <title--main id="title--main" class="title__main">Titel</title--main>
     </br>
         <title--feature id="title--feature" class="title__feature">Feature titel</title--feature>
@@ -18,6 +22,11 @@
         <title--post id="title--post" class="title__post">Post titel</title--post>
         <postContainer id="postContainer"></postContainer>
         
-    </wrapper>
+        <!-- <script>
+            if ('serviceworker' in navigator) {
+                navigator.serviceWorker.register('/service-worker.js');
+            }
+        </script> -->
+
 </body>
 </html>
